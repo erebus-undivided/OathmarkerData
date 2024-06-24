@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Oathmark
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1</Version>
+  <Formations>
+    <Formation>
+      <Name>Shield Wall</Name>
+      <Description>Start game in formation or adopt formation for one action.&#xD;Abandon formation for free anytime during activation or automatically when less than a full rank left.&#xD;-1 Fight, +1 Defence in combats to front. No one may use Wild Charge.</Description>
+      <PointsPerModel>2</PointsPerModel>
+      <PointVariations />
+      <Restrictions>
+        <MinStrength>5</MinStrength>
+        <MaxStrength>20</MaxStrength>
+        <BaseSize />
+        <TypeContains>
+          <string>Soldier</string>
+          <string>Spearman</string>
+          <string>Warrior</string>
+        </TypeContains>
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains>
+          <string>Shielding</string>
+        </SpecialAbilitiesContains>
+        <SpecialAbilitiesDoesNotContain />
+        <EquipmentContains />
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>10</Page>
+      </Reference>
+    </Formation>
+    <Formation>
+      <Name>Chariot Unit</Name>
+      <Description>Two chariots can form a unit</Description>
+      <PointsPerModel>10</PointsPerModel>
+      <PointVariations />
+      <Restrictions>
+        <MinStrength>0</MinStrength>
+        <MaxStrength>20</MaxStrength>
+        <BaseSize />
+        <TypeContains>
+          <string>Chariot</string>
+        </TypeContains>
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains />
+        <SpecialAbilitiesDoesNotContain />
+        <EquipmentContains />
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>10</Page>
+      </Reference>
+    </Formation>
+    <Formation>
+      <Name>Javelin Storm</Name>
+      <Description>+1 Fight on first charge of game</Description>
+      <PointsPerModel>1</PointsPerModel>
+      <PointVariations>
+        <PointVariation>
+          <Points>2</Points>
+          <Criteria>
+            <MinStrength>0</MinStrength>
+            <MaxStrength>20</MaxStrength>
+            <BaseSize />
+            <TypeContains>
+              <string>Dwarf</string>
+              <string>Elf</string>
+            </TypeContains>
+            <TypeDoesNotContain />
+            <SpecialAbilitiesContains />
+            <SpecialAbilitiesDoesNotContain />
+            <EquipmentContains />
+            <EquipmentDoesNotContain />
+          </Criteria>
+        </PointVariation>
+      </PointVariations>
+      <Restrictions>
+        <MinStrength>0</MinStrength>
+        <MaxStrength>20</MaxStrength>
+        <BaseSize />
+        <TypeContains>
+          <string>Soldier</string>
+          <string>Spearman</string>
+          <string>Warrior</string>
+        </TypeContains>
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains />
+        <SpecialAbilitiesDoesNotContain>
+          <string>Charge</string>
+          <string>Wild Charge</string>
+        </SpecialAbilitiesDoesNotContain>
+        <EquipmentContains />
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>11</Page>
+      </Reference>
+    </Formation>
+    <Formation>
+      <Name>Phalanx</Name>
+      <Description>+1 Fight to front.&#xD;-2 Fight to sides or rear.&#xD;Automatically leave formation when less than 2 ranks.&#xD;Cannot willingly leave formation.</Description>
+      <PointsPerModel>2</PointsPerModel>
+      <PointVariations />
+      <Restrictions>
+        <MinStrength>10</MinStrength>
+        <MaxStrength>20</MaxStrength>
+        <BaseSize />
+        <TypeContains>
+          <string>Spearman</string>
+        </TypeContains>
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains />
+        <SpecialAbilitiesDoesNotContain />
+        <EquipmentContains />
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>11</Page>
+      </Reference>
+    </Formation>
+    <Formation>
+      <Name>Square</Name>
+      <Description>May start game in formation.&#xD;Adopt or abandon formation for one action.&#xD;Automatically abandon formation when less than 2 full ranks left.&#xD;When in formation, all facings are considered front.&#xD;Combat Dice are determined from any one chosen facing.&#xD;Does not receive -1 TN for full ranks beyond first.&#xD;Does receive +1 morale for at least 2 ranks.&#xD;-3 Move.</Description>
+      <PointsPerModel>1</PointsPerModel>
+      <PointVariations />
+      <Restrictions>
+        <MinStrength>10</MinStrength>
+        <MaxStrength>20</MaxStrength>
+        <TypeContains>
+          <string>Soldier</string>
+          <string>Spearman</string>
+          <string>Warrior</string>
+          <string>Linebreaker</string>
+        </TypeContains>
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains />
+        <SpecialAbilitiesDoesNotContain />
+        <EquipmentContains />
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>12</Page>
+      </Reference>
+    </Formation>
+    <Formation>
+      <Name>Skirmish</Name>
+      <Description>May start game in formation.&#xD;Adopt or abandon formation for one action.&#xD;Automatically abandon formation when contacted by enemy.&#xD;Can move sideways or backwards with no penalties.&#xD;Gains Shielding(1) while in formation.&#xD;Cannot use Fire Over or Aimed Fire while in formation.&#xD;Figures placed 0.5" apart. LOS cannot be drawn through gaps.</Description>
+      <PointsPerModel>2</PointsPerModel>
+      <PointVariations />
+      <Restrictions>
+        <MinStrength>0</MinStrength>
+        <MaxStrength>5</MaxStrength>
+        <BaseSize>25 x 25</BaseSize>
+        <TypeContains />
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains />
+        <SpecialAbilitiesDoesNotContain />
+        <EquipmentContains>
+          <string>Bow</string>
+          <string>Sling</string>
+        </EquipmentContains>
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>13</Page>
+      </Reference>
+    </Formation>
+  </Formations>
+  <SpecialAbilityTypes />
+  <SpellLists />
+  <UnitTypes />
+  <TerrainLists />
+</Oathmark>
