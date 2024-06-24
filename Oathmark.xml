@@ -509,6 +509,87 @@
         <Page>173</Page>
       </Reference>
     </SpellList>
+    <SpellList>
+      <Name>Dwarf</Name>
+      <Spells>
+        <Spell>
+          <Name>Brace</Name>
+          <Description>Friendly unit gains Brace</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Explosive Ammunition</Name>
+          <Description>Friendly artillery unit's next attack has +1 Shoot and +2 Combat Dice.</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Fortress</Name>
+          <Description>Friendly unit received Shielding(3) until it moves.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Gathering of Crows</Name>
+          <Description>Any unit gains Shielding(2) vs shooting attacks.</Description>
+          <CastingNumber>4</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Lightning Bolt</Name>
+          <Description>Shoot 6, CD 1 with Champion Die vs any unit.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Resolute</Name>
+          <Description>Disordered unit is no longer Disordered.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Stoneheart</Name>
+          <Description>Friendly unit gains +1 Defence.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Sunder</Name>
+          <Description>Unit gains Shielding(-1) (min 0)</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>175</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>175</Page>
+      </Reference>
+    </SpellList>
   </SpellLists>
   <UnitTypes />
   <TerrainLists />
