@@ -173,7 +173,242 @@
       </Reference>
     </Formation>
   </Formations>
-  <SpecialAbilityTypes />
+  <SpecialAbilityTypes>
+    <SpecialAbilityType>
+      <Name>Aimed Fire</Name>
+      <Description>Do not have to fire at the closest unit.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>166</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Artillery</Name>
+      <Description>Cannot move and shoot. &#xD;Can manoeuvre and shoot.&#xD;Ignores Shielding.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>166</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Brace</Name>
+      <Description>-1 Charge when charged.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>166</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Champion</Name>
+      <Description>Roll Champion Die in melee.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>166</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Charge</Name>
+      <Description>-X TN when charging</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>166</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Command</Name>
+      <Description>Units within 6" roll three dice for activation and morale tests.&#xD;May activate X units when activated.</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Courage</Name>
+      <Description>+X to all morale tests</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Crew</Name>
+      <Description>Number of models operating artillery piece.</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Discorporate</Name>
+      <Description>Can teleport 12" instead of any other actions on successful activation.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Enormous</Name>
+      <Description>Max unit strength is 1.&#xD;Blocks LOS for all models.&#xD;Artillery roll extra Combat Dice when firing at this model.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Fire Breath</Name>
+      <Description>Once per activation, 12" shooting attack with 5 combat dice using model's Shoot.&#xD;Morale test required for target even without casualties unless target immune to morale tests from casualties.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Fire Over</Name>
+      <Description>Ignore one unit within 3" that has no Enormous or Large models when determining line of sight.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Flying</Name>
+      <Description>Ignore terrain.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Horrific</Name>
+      <Description>-1 Die for morale test vs this unit in combat.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Indirect Fire</Name>
+      <Description>Does not have to fire at closest unit.&#xD;Can fire at enemy as long as ally can see it. +1 to TN when doing so.&#xD;Fires over intervening units.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Large</Name>
+      <Description>Blocks LOS for non-Enormous models.&#xD;Artillery roll extra Combat Dice when firing at this model.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Magic Items</Name>
+      <Description>Can be given Magic Items</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Monster</Name>
+      <Description>Max unit strength is 1.&#xD;Always roll Champion Die.&#xD;Immune to Command.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Nimble</Name>
+      <Description>Ignore rough ground penalties.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>168</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Poisonous Breath</Name>
+      <Description>Once per activation, select unit within 12".&#xD;Target unit must roll 5 dice &gt;= attacker's Activation.&#xD;Each failure = 1 hit.&#xD;-1 Fight until end of turn.&#xD;Does not trigger morale tests.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Shielding</Name>
+      <Description>Discard up to X combat dice in melee to force front-charging opponent to discard the same number of his own (min 1).&#xD;-X Combat Dice to shooting attacks from the front or sides.&#xD;Artillery ignore Shielding.</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Spellcaster</Name>
+      <Description>Knows X spells chosen at start of game,&#xD;Roll X dice when casting spells.</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Stone Gaze</Name>
+      <Description>When activated, must choose visible enemy within 12".&#xD;Target must roll 1 die &gt;= unit's Activation or take 1 hit.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Regenerate</Name>
+      <Description>+X Health (up to starting) when activated.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Waterwalk</Name>
+      <Description>Ignore movement penalties for water.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>172</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Wild Charge</Name>
+      <Description>Can re-roll one Combat Die when charging.&#xD;If re-rolled, enemy can re-roll one Combat Die too.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>172</Page>
+      </Reference>
+    </SpecialAbilityType>
+  </SpecialAbilityTypes>
   <SpellLists />
   <UnitTypes />
   <TerrainLists />
