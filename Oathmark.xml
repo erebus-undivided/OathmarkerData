@@ -409,7 +409,107 @@
       </Reference>
     </SpecialAbilityType>
   </SpecialAbilityTypes>
-  <SpellLists />
+  <SpellLists>
+    <SpellList>
+      <Name>General</Name>
+      <Spells>
+        <Spell>
+          <Name>Courage</Name>
+          <Description>Friendly unit gains Courage(+1)</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>173</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Crushing Blow</Name>
+          <Description>+1 Combat Die to figure within 18".</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>173</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Dispel</Name>
+          <Description>Remove all ongoing spell effect on any unit.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Fireball</Name>
+          <Description>Shoot 4, CD 3 attack vs any unit.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Fleetfeet</Name>
+          <Description>+2 Move to any friendly unit</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Heal</Name>
+          <Description>Once per game single figure within 18" regains 2 Health (max starting).</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Looking Glass</Name>
+          <Description>Spells can be cast from marker placed in visible spot.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Mystic Shield</Name>
+          <Description>Friendly unit gains Shielding(1).</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Shift</Name>
+          <Description>Friendly unit immediately performs a manoeuvre.</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Smoke</Name>
+          <Description>Place LOS-blocking smoke (10"x1"x2") wholly visible to spellcaster.&#xD;Removed on a 10 at end of each turn.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>173</Page>
+      </Reference>
+    </SpellList>
+  </SpellLists>
   <UnitTypes />
   <TerrainLists />
 </Oathmark>
