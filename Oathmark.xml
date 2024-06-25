@@ -5,33 +5,6 @@
   <Version>1</Version>
   <Formations>
     <Formation>
-      <Name>Shield Wall</Name>
-      <Description>Start game in formation or adopt formation for one action.&#xD;Abandon formation for free anytime during activation or automatically when less than a full rank left.&#xD;-1 Fight, +1 Defence in combats to front. No one may use Wild Charge.</Description>
-      <PointsPerModel>2</PointsPerModel>
-      <PointVariations />
-      <Restrictions>
-        <MinStrength>5</MinStrength>
-        <MaxStrength>20</MaxStrength>
-        <BaseSize />
-        <TypeContains>
-          <string>Soldier</string>
-          <string>Spearman</string>
-          <string>Warrior</string>
-        </TypeContains>
-        <TypeDoesNotContain />
-        <SpecialAbilitiesContains>
-          <string>Shielding</string>
-        </SpecialAbilitiesContains>
-        <SpecialAbilitiesDoesNotContain />
-        <EquipmentContains />
-        <EquipmentDoesNotContain />
-      </Restrictions>
-      <Reference>
-        <Sourcebook>Bane of Kings</Sourcebook>
-        <Page>10</Page>
-      </Reference>
-    </Formation>
-    <Formation>
       <Name>Chariot Unit</Name>
       <Description>Two chariots can form a unit</Description>
       <PointsPerModel>10</PointsPerModel>
@@ -124,29 +97,30 @@
       </Reference>
     </Formation>
     <Formation>
-      <Name>Square</Name>
-      <Description>May start game in formation.&#xD;Adopt or abandon formation for one action.&#xD;Automatically abandon formation when less than 2 full ranks left.&#xD;When in formation, all facings are considered front.&#xD;Combat Dice are determined from any one chosen facing.&#xD;Does not receive -1 TN for full ranks beyond first.&#xD;Does receive +1 morale for at least 2 ranks.&#xD;-3 Move.</Description>
-      <PointsPerModel>1</PointsPerModel>
+      <Name>Shield Wall</Name>
+      <Description>Start game in formation or adopt formation for one action.&#xD;Abandon formation for free anytime during activation or automatically when less than a full rank left.&#xD;-1 Fight, +1 Defence in combats to front. No one may use Wild Charge.</Description>
+      <PointsPerModel>2</PointsPerModel>
       <PointVariations />
       <Restrictions>
-        <MinStrength>10</MinStrength>
+        <MinStrength>5</MinStrength>
         <MaxStrength>20</MaxStrength>
         <BaseSize />
         <TypeContains>
           <string>Soldier</string>
           <string>Spearman</string>
           <string>Warrior</string>
-          <string>Linebreaker</string>
         </TypeContains>
         <TypeDoesNotContain />
-        <SpecialAbilitiesContains />
+        <SpecialAbilitiesContains>
+          <string>Shielding</string>
+        </SpecialAbilitiesContains>
         <SpecialAbilitiesDoesNotContain />
         <EquipmentContains />
         <EquipmentDoesNotContain />
       </Restrictions>
       <Reference>
         <Sourcebook>Bane of Kings</Sourcebook>
-        <Page>12</Page>
+        <Page>10</Page>
       </Reference>
     </Formation>
     <Formation>
@@ -171,6 +145,32 @@
       <Reference>
         <Sourcebook>Bane of Kings</Sourcebook>
         <Page>13</Page>
+      </Reference>
+    </Formation>
+    <Formation>
+      <Name>Square</Name>
+      <Description>May start game in formation.&#xD;Adopt or abandon formation for one action.&#xD;Automatically abandon formation when less than 2 full ranks left.&#xD;When in formation, all facings are considered front.&#xD;Combat Dice are determined from any one chosen facing.&#xD;Does not receive -1 TN for full ranks beyond first.&#xD;Does receive +1 morale for at least 2 ranks.&#xD;-3 Move.</Description>
+      <PointsPerModel>1</PointsPerModel>
+      <PointVariations />
+      <Restrictions>
+        <MinStrength>10</MinStrength>
+        <MaxStrength>20</MaxStrength>
+        <BaseSize />
+        <TypeContains>
+          <string>Soldier</string>
+          <string>Spearman</string>
+          <string>Warrior</string>
+          <string>Linebreaker</string>
+        </TypeContains>
+        <TypeDoesNotContain />
+        <SpecialAbilitiesContains />
+        <SpecialAbilitiesDoesNotContain />
+        <EquipmentContains />
+        <EquipmentDoesNotContain />
+      </Restrictions>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>12</Page>
       </Reference>
     </Formation>
   </Formations>
@@ -356,6 +356,15 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Regenerate</Name>
+      <Description>+X Health (up to starting) when activated.</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Shielding</Name>
       <Description>Discard up to X combat dice in melee to force front-charging opponent to discard the same number of his own (min 1).&#xD;-X Combat Dice to shooting attacks from the front or sides.&#xD;Artillery ignore Shielding.</Description>
       <HasLevel>true</HasLevel>
@@ -377,15 +386,6 @@
       <Name>Stone Gaze</Name>
       <Description>When activated, must choose visible enemy within 12".&#xD;Target must roll 1 die &gt;= unit's Activation or take 1 hit.</Description>
       <HasLevel>false</HasLevel>
-      <Reference>
-        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-        <Page>169</Page>
-      </Reference>
-    </SpecialAbilityType>
-    <SpecialAbilityType>
-      <Name>Regenerate</Name>
-      <Description>+X Health (up to starting) when activated.</Description>
-      <HasLevel>true</HasLevel>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -461,15 +461,15 @@
       </Reference>
     </MagicItemType>
     <MagicItemType>
-      <Name>Crown of Regeneration</Name>
-      <Description>Gain Regenerate(1)</Description>
-      <Points>50</Points>
+      <Name>Cloak of Discorporation</Name>
+      <Description>Gain Discorporate.</Description>
+      <Points>100</Points>
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
           <SpecialAbility>
-            <Name>Regenerate</Name>
-            <Level>1</Level>
+            <Name>Discorporate</Name>
+            <Level>0</Level>
           </SpecialAbility>
           <Mode>Set</Mode>
         </MagicItemSpecialAbility>
@@ -480,15 +480,15 @@
       </Reference>
     </MagicItemType>
     <MagicItemType>
-      <Name>Cloak of Discorporation</Name>
-      <Description>Gain Discorporate.</Description>
-      <Points>100</Points>
+      <Name>Crown of Regeneration</Name>
+      <Description>Gain Regenerate(1)</Description>
+      <Points>50</Points>
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
           <SpecialAbility>
-            <Name>Discorporate</Name>
-            <Level>0</Level>
+            <Name>Regenerate</Name>
+            <Level>1</Level>
           </SpecialAbility>
           <Mode>Set</Mode>
         </MagicItemSpecialAbility>
@@ -551,6 +551,17 @@
       </Reference>
     </MagicItemType>
     <MagicItemType>
+      <Name>Sword of Flames</Name>
+      <Description>Reroll 1s on Champion Die in combat.</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Sourcebook />
+        <Page>0</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
       <Name>Sword of Starsilver</Name>
       <Description>+1 to Champion Die roll. Roll of 9 does not hit character.&#xD;</Description>
       <Points>50</Points>
@@ -561,117 +572,8 @@
         <Page>183</Page>
       </Reference>
     </MagicItemType>
-    <MagicItemType>
-      <Name>Sword of Flames</Name>
-      <Description>Reroll 1s on Champion Die in combat.</Description>
-      <Points>50</Points>
-      <ExtraKnownSpells>0</ExtraKnownSpells>
-      <SpecialAbilities />
-      <Reference>
-        <Page>0</Page>
-      </Reference>
-    </MagicItemType>
   </MagicItemTypes>
   <SpellLists>
-    <SpellList>
-      <Name>General</Name>
-      <Spells>
-        <Spell>
-          <Name>Courage</Name>
-          <Description>Friendly unit gains Courage(+1)</Description>
-          <CastingNumber>6</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>173</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Crushing Blow</Name>
-          <Description>+1 Combat Die to figure within 18".</Description>
-          <CastingNumber>7</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>173</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Dispel</Name>
-          <Description>Remove all ongoing spell effect on any unit.</Description>
-          <CastingNumber>8</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Fireball</Name>
-          <Description>Shoot 4, CD 3 attack vs any unit.</Description>
-          <CastingNumber>7</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Fleetfeet</Name>
-          <Description>+2 Move to any friendly unit</Description>
-          <CastingNumber>5</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Heal</Name>
-          <Description>Once per game single figure within 18" regains 2 Health (max starting).</Description>
-          <CastingNumber>6</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Looking Glass</Name>
-          <Description>Spells can be cast from marker placed in visible spot.</Description>
-          <CastingNumber>7</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Mystic Shield</Name>
-          <Description>Friendly unit gains Shielding(1).</Description>
-          <CastingNumber>5</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Shift</Name>
-          <Description>Friendly unit immediately performs a manoeuvre.</Description>
-          <CastingNumber>5</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Smoke</Name>
-          <Description>Place LOS-blocking smoke (10"x1"x2") wholly visible to spellcaster.&#xD;Removed on a 10 at end of each turn.</Description>
-          <CastingNumber>6</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>174</Page>
-          </Reference>
-        </Spell>
-      </Spells>
-      <Reference>
-        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-        <Page>173</Page>
-      </Reference>
-    </SpellList>
     <SpellList>
       <Name>Dwarf</Name>
       <Spells>
@@ -835,84 +737,102 @@
       </Reference>
     </SpellList>
     <SpellList>
-      <Name>Human</Name>
+      <Name>General</Name>
       <Spells>
         <Spell>
-          <Name>Afflict</Name>
-          <Description>Enemy unit gains -1 Shoot.</Description>
+          <Name>Courage</Name>
+          <Description>Friendly unit gains Courage(+1)</Description>
           <CastingNumber>6</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>173</Page>
           </Reference>
         </Spell>
         <Spell>
-          <Name>Bells of Doom</Name>
-          <Description>All units roll -1 die for activation until next turn.</Description>
-          <CastingNumber>10</CastingNumber>
+          <Name>Crushing Blow</Name>
+          <Description>+1 Combat Die to figure within 18".</Description>
+          <CastingNumber>7</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>173</Page>
           </Reference>
         </Spell>
         <Spell>
-          <Name>Blade Mastery</Name>
-          <Description>Friendly unit gains +1 Fight.</Description>
+          <Name>Dispel</Name>
+          <Description>Remove all ongoing spell effect on any unit.</Description>
           <CastingNumber>8</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>174</Page>
           </Reference>
         </Spell>
         <Spell>
-          <Name>Lifebane</Name>
-          <Description>Any unit takes 1 damage. No morale test.</Description>
-          <CastingNumber>10</CastingNumber>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
-          </Reference>
-        </Spell>
-        <Spell>
-          <Name>Mud</Name>
-          <Description>Place mud (6" x 2") within LOS of caster. Cannot be dispelled.</Description>
+          <Name>Fireball</Name>
+          <Description>Shoot 4, CD 3 attack vs any unit.</Description>
           <CastingNumber>7</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>174</Page>
           </Reference>
         </Spell>
         <Spell>
-          <Name>Seize the Initiative</Name>
-          <Description>Roll 4 dice for initiative while caster present. Choose two dice for events before rolling.</Description>
-          <CastingNumber>8</CastingNumber>
+          <Name>Fleetfeet</Name>
+          <Description>+2 Move to any friendly unit</Description>
+          <CastingNumber>5</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>174</Page>
           </Reference>
         </Spell>
         <Spell>
-          <Name>Sunblind</Name>
-          <Description>Any unit cannot shoot during next activation.</Description>
+          <Name>Heal</Name>
+          <Description>Once per game single figure within 18" regains 2 Health (max starting).</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Looking Glass</Name>
+          <Description>Spells can be cast from marker placed in visible spot.</Description>
           <CastingNumber>7</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>174</Page>
           </Reference>
         </Spell>
         <Spell>
-          <Name>Stolen March</Name>
-          <Description>Friendly unit makes a non-charge move.</Description>
-          <CastingNumber>7</CastingNumber>
+          <Name>Mystic Shield</Name>
+          <Description>Friendly unit gains Shielding(1).</Description>
+          <CastingNumber>5</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>178</Page>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Shift</Name>
+          <Description>Friendly unit immediately performs a manoeuvre.</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Smoke</Name>
+          <Description>Place LOS-blocking smoke (10"x1"x2") wholly visible to spellcaster.&#xD;Removed on a 10 at end of each turn.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>174</Page>
           </Reference>
         </Spell>
       </Spells>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-        <Page>178</Page>
+        <Page>173</Page>
       </Reference>
     </SpellList>
     <SpellList>
@@ -996,7 +916,1069 @@
         <Page>179</Page>
       </Reference>
     </SpellList>
+    <SpellList>
+      <Name>Human</Name>
+      <Spells>
+        <Spell>
+          <Name>Afflict</Name>
+          <Description>Enemy unit gains -1 Shoot.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Bells of Doom</Name>
+          <Description>All units roll -1 die for activation until next turn.</Description>
+          <CastingNumber>10</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Blade Mastery</Name>
+          <Description>Friendly unit gains +1 Fight.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Lifebane</Name>
+          <Description>Any unit takes 1 damage. No morale test.</Description>
+          <CastingNumber>10</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Mud</Name>
+          <Description>Place mud (6" x 2") within LOS of caster. Cannot be dispelled.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Seize the Initiative</Name>
+          <Description>Roll 4 dice for initiative while caster present. Choose two dice for events before rolling.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Sunblind</Name>
+          <Description>Any unit cannot shoot during next activation.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Stolen March</Name>
+          <Description>Friendly unit makes a non-charge move.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>178</Page>
+      </Reference>
+    </SpellList>
   </SpellLists>
-  <UnitTypes />
+  <UnitTypes>
+    <UnitType>
+      <Name>Barghest</Name>
+      <Description>Giant dog.</Description>
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>8</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>4</CombatDice>
+        <Health>4</Health>
+        <Points>200</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Discorporate</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>95</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Archer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>0</Fight>
+        <Shoot>2</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>15</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>89</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Border Guard</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>0</Fight>
+        <Shoot>2</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>17</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Aimed Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>91</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Captain</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>150</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>87</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Champion</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>1</Health>
+        <Points>62</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>87</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf General</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>2</Health>
+        <Points>293</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>86</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Heavy Catapult</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>2</Move>
+        <Fight>2</Fight>
+        <Shoot>4</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>140</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Artillery</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Crew</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Indirect Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>93</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf King</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>322</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>85</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Light Catapult</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>3</Move>
+        <Fight>2</Fight>
+        <Shoot>3</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>120</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Artillery</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Crew</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Indirect Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>93</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Linebreaker</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>4</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>20</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities />
+        <Equipment>
+          <UnitEquipment>
+            <Name>Two-Handed Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>90</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Militia</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>5</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>14</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities />
+        <Equipment>
+          <UnitEquipment>
+            <Name>Two-Handed Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>91</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Prince</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>2</Health>
+        <Points>165</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>85</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Soldier</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>15</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>88</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Spearman</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>16</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Brace</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Spear</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>89</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Spellcaster Level 1</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>50</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>88</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Spellcaster Level 2</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>100</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>88</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Spellcaster Level 3</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>200</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>88</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Spellcaster Level 4</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>300</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>88</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Spellcaster Level 5</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>400</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>88</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Warrior</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>4</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>17</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>89</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Eachy</Name>
+      <Description>Skinny, ugly ogre.</Description>
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>7</Activation>
+        <Move>5</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>5</Health>
+        <Points>120</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Regenerate</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>94</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Indrik</Name>
+      <Description>Woolly rhino.</Description>
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>4</CombatDice>
+        <Health>5</Health>
+        <Points>160</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Brace</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>94</Page>
+      </Reference>
+    </UnitType>
+  </UnitTypes>
   <TerrainLists />
 </Oathmark>
