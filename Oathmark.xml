@@ -1050,6 +1050,57 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Buggane</Name>
+      <Description>Hairy Ogre Wizard.</Description>
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>5</Health>
+        <Points>450</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Human</SpellList>
+      <SpellList>Elf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>111</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Dwarf Archer</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -1330,19 +1381,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name>Command</Name>
+            <Name />
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Champion</Name>
+            <Name />
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Shielding</Name>
+            <Name />
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Magic Items</Name>
+            <Name />
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -1930,6 +1981,1149 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Giant</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>7</Activation>
+        <Move>7</Move>
+        <Fight>6</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>5</CombatDice>
+        <Health>12</Health>
+        <Points>350</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Enormous</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>112</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Archer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>2</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>12</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>103</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Captain</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>133</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>99</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>13</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>99</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Cavalry</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>8</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>1</Health>
+        <Points>45</Points>
+        <Base>25 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>106</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Champion</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>1</Health>
+        <Points>51</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>99</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>13</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>99</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human General</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>2</Health>
+        <Points>260</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>98</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>13</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>98</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Heavy Catapult</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>2</Move>
+        <Fight>2</Fight>
+        <Shoot>4</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>120</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Artillery</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Crew</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Indirect Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>110</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Heavy Cavalry</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>8</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>1</Health>
+        <Points>50</Points>
+        <Base>25 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>106</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human King</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>279</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>97</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>13</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>97</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Light Catapult</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>3</Move>
+        <Fight>2</Fight>
+        <Shoot>3</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>90</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Artillery</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Crew</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Indirect Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>107</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Linebreaker</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>5</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>17</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities />
+        <Equipment>
+          <UnitEquipment>
+            <Name>Two-Handed Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>103</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Militia</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>9</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>104</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Mounted Ranger</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>8</Move>
+        <Fight>1</Fight>
+        <Shoot>2</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>1</Health>
+        <Points>24</Points>
+        <Base>25 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Aimed Fire</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>104</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Prince</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>2</Health>
+        <Points>145</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>97</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>13</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>97</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Ranger</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>2</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>14</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Aimed Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>104</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Soldier</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>12</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>102</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Spearman</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>13</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Brace</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Spear</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>102</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Spellcaster Level 1</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>50</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>101</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>101</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Spellcaster Level 2</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>100</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>101</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>101</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Spellcaster Level 3</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>200</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>101</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>101</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Spellcaster Level 4</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>300</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>101</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>101</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Spellcaster Level 5</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>400</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>101</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>101</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Warrior</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>5</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>14</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>103</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Indrik</Name>
       <Description>Woolly rhino.</Description>
       <MaxPerArmy>-1</MaxPerArmy>
@@ -1977,6 +3171,111 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>94</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Ogre</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>7</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>40</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>110</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Ogre Linebreaker</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>7</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>45</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Two-Handed Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>111</Page>
       </Reference>
     </UnitType>
   </UnitTypes>
