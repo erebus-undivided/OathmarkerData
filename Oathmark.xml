@@ -671,6 +671,87 @@
         <Page>176</Page>
       </Reference>
     </SpellList>
+    <SpellList>
+      <Name>Human</Name>
+      <Spells>
+        <Spell>
+          <Name>Afflict</Name>
+          <Description>Enemy unit gains -1 Shoot.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Bells of Doom</Name>
+          <Description>All units roll -1 die for activation until next turn.</Description>
+          <CastingNumber>10</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Blade Mastery</Name>
+          <Description>Friendly unit gains +1 Fight.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Lifebane</Name>
+          <Description>Any unit takes 1 damage. No morale test.</Description>
+          <CastingNumber>10</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Mud</Name>
+          <Description>Place mud (6" x 2") within LOS of caster. Cannot be dispelled.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Seize the Initiative</Name>
+          <Description>Roll 4 dice for initiative while caster present. Choose two dice for events before rolling.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Sunblind</Name>
+          <Description>Any unit cannot shoot during next activation.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Stolen March</Name>
+          <Description>Friendly unit makes a non-charge move.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>178</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>178</Page>
+      </Reference>
+    </SpellList>
   </SpellLists>
   <UnitTypes />
   <TerrainLists />
