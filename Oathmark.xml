@@ -131,6 +131,7 @@
       <Restrictions>
         <MinStrength>10</MinStrength>
         <MaxStrength>20</MaxStrength>
+        <BaseSize />
         <TypeContains>
           <string>Soldier</string>
           <string>Spearman</string>
@@ -221,7 +222,7 @@
     </SpecialAbilityType>
     <SpecialAbilityType>
       <Name>Command</Name>
-      <Description>Units within 6" roll three dice for activation and morale tests.&#xD;May activate X units when activated.</Description>
+      <Description>Units within 6" roll three dice for activation and morale tests.&#xD;May activate X units within 6" when activated.</Description>
       <HasLevel>true</HasLevel>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -384,7 +385,7 @@
     <SpecialAbilityType>
       <Name>Regenerate</Name>
       <Description>+X Health (up to starting) when activated.</Description>
-      <HasLevel>false</HasLevel>
+      <HasLevel>true</HasLevel>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -409,6 +410,168 @@
       </Reference>
     </SpecialAbilityType>
   </SpecialAbilityTypes>
+  <MagicItemTypes>
+    <MagicItemType>
+      <Name>Armour of Starsilver</Name>
+      <Description>7+ save to ignore each point of damage.</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>182</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Banner of Courage</Name>
+      <Description>Gain Courage(+1)</Description>
+      <Points>60</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities>
+        <MagicItemSpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <Mode>Add</Mode>
+        </MagicItemSpecialAbility>
+      </SpecialAbilities>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>182</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Boots of Striding</Name>
+      <Description>Gain Nimble</Description>
+      <Points>30</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities>
+        <MagicItemSpecialAbility>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <Mode>Set</Mode>
+        </MagicItemSpecialAbility>
+      </SpecialAbilities>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>182</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Crown of Regeneration</Name>
+      <Description>Gain Regenerate(1)</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities>
+        <MagicItemSpecialAbility>
+          <SpecialAbility>
+            <Name>Regenerate</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <Mode>Set</Mode>
+        </MagicItemSpecialAbility>
+      </SpecialAbilities>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>182</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Cloak of Discorporation</Name>
+      <Description>Gain Discorporate.</Description>
+      <Points>100</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities>
+        <MagicItemSpecialAbility>
+          <SpecialAbility>
+            <Name>Discorporate</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <Mode>Set</Mode>
+        </MagicItemSpecialAbility>
+      </SpecialAbilities>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>182</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Golden String Bow</Name>
+      <Description>Roll Champion Die when shooting.</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>183</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Ring of Shielding</Name>
+      <Description>Gain Shielding(+1).</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities>
+        <MagicItemSpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <Mode>Add</Mode>
+        </MagicItemSpecialAbility>
+      </SpecialAbilities>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>183</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Ring of Spellcasting</Name>
+      <Description>Knows an extra spell.</Description>
+      <Points>30</Points>
+      <ExtraKnownSpells>1</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>183</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Sceptre of Command</Name>
+      <Description>Can activate units up to 9" away.</Description>
+      <Points>75</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>183</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Sword of Starsilver</Name>
+      <Description>+1 to Champion Die roll. Roll of 9 does not hit character.&#xD;</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>183</Page>
+      </Reference>
+    </MagicItemType>
+    <MagicItemType>
+      <Name>Sword of Flames</Name>
+      <Description>Reroll 1s on Champion Die in combat.</Description>
+      <Points>50</Points>
+      <ExtraKnownSpells>0</ExtraKnownSpells>
+      <SpecialAbilities />
+      <Reference>
+        <Page>0</Page>
+      </Reference>
+    </MagicItemType>
+  </MagicItemTypes>
   <SpellLists>
     <SpellList>
       <Name>General</Name>
