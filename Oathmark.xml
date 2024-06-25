@@ -590,6 +590,87 @@
         <Page>175</Page>
       </Reference>
     </SpellList>
+    <SpellList>
+      <Name>Elf</Name>
+      <Spells>
+        <Spell>
+          <Name>Confound</Name>
+          <Description>Any unit must pass an Activation roll on one die or have no actions when next activated.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>176</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Earthlines</Name>
+          <Description>Self only. Caster rolls one extra die when casting spells.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>176</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Fool's Gold</Name>
+          <Description>Any unit must pass an Activation roll or be forced to perform a manoeuvre by the caster.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>176</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Glamour</Name>
+          <Description>Teleport friendly unit anywhere visible to caster. If not yet activated, no actions on next activation.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>177</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Pathfinder</Name>
+          <Description>Any unit gains Nimble.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>177</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Phase</Name>
+          <Description>Friendly unit can ignore terrain during next activation.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>177</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Trueflight</Name>
+          <Description>Friendly unit gains +1 Shoot.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>177</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Truesight</Name>
+          <Description>Friendly unit ignores first friendly unit for LOS.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>177</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>176</Page>
+      </Reference>
+    </SpellList>
   </SpellLists>
   <UnitTypes />
   <TerrainLists />
