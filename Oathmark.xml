@@ -752,6 +752,87 @@
         <Page>178</Page>
       </Reference>
     </SpellList>
+    <SpellList>
+      <Name>Goblin and Orc</Name>
+      <Spells>
+        <Spell>
+          <Name>Battlerage</Name>
+          <Description>Any unit's officer gains Champion.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>179</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Fury</Name>
+          <Description>Friendly unit gains Wild Charge.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>179</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Horrify</Name>
+          <Description>Any unit gains Horrific</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>179</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Immolate</Name>
+          <Description>Friendly unit within 4" of an enemy loses 1 figure (no morale test). Shoot 4 CD4 attack vs enemy unit.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>179</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Poison Cloud</Name>
+          <Description>Any unit rolls 5 dice &gt;= its Activation and takes 1 hit / failure (no morale test).&#xD;-1 Fight until next turn.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>180</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Rain of Knives</Name>
+          <Description>Shoot 0 CD5 against any unit.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>180</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Fear</Name>
+          <Description>Any non-Disordered unit takes a morale test.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>180</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Weakness</Name>
+          <Description>Any unit gains -1 Fight.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>180</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>179</Page>
+      </Reference>
+    </SpellList>
   </SpellLists>
   <UnitTypes />
   <TerrainLists />
