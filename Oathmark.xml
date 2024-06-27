@@ -557,8 +557,8 @@
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities />
       <Reference>
-        <Sourcebook />
-        <Page>0</Page>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>183</Page>
       </Reference>
     </MagicItemType>
     <MagicItemType>
@@ -1381,19 +1381,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Command</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -1981,6 +1981,656 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Elf Captain</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>174</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>115</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>115</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Champion</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>55</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>1</Health>
+        <Points>74</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>116</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf General</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>2</Health>
+        <Points>329</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>115</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>115</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf King or Queen</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>5</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>356</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>113</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>113</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Prince or Princess</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>2</Health>
+        <Points>189</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>114</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>114</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Soldier</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>20</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>118</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Spellcaster Level 1</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>60</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>116</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Elf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Spellcaster Level 2</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>130</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>116</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Elf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Spellcaster Level 3</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>240</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>116</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Elf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Spellcaster Level 4</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>350</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>116</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Elf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Spellcaster Level 5</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>490</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>116</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>11</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Elf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Giant</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -2090,15 +2740,15 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Command</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2194,15 +2844,15 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2254,15 +2904,15 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Command</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2404,19 +3054,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Command</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2618,19 +3268,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Command</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2723,7 +3373,7 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2805,19 +3455,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Spellcaster</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Fire Over</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2842,6 +3492,8 @@
           <Base>25 x 50</Base>
         </UnitOption>
       </Options>
+      <SpellList>Human</SpellList>
+      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>101</Page>
@@ -2863,19 +3515,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Spellcaster</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Fire Over</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2900,6 +3552,8 @@
           <Base>25 x 50</Base>
         </UnitOption>
       </Options>
+      <SpellList>Human</SpellList>
+      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>101</Page>
@@ -2921,19 +3575,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Spellcaster</Name>
             <Level>3</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Fire Over</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -2958,6 +3612,8 @@
           <Base>25 x 50</Base>
         </UnitOption>
       </Options>
+      <SpellList>Human</SpellList>
+      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>101</Page>
@@ -2979,19 +3635,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Spellcaster</Name>
             <Level>4</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Fire Over</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -3016,6 +3672,8 @@
           <Base>25 x 50</Base>
         </UnitOption>
       </Options>
+      <SpellList>Human</SpellList>
+      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>101</Page>
@@ -3037,23 +3695,23 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Spellcaster</Name>
             <Level>4</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Fire Over</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -3078,6 +3736,8 @@
           <Base>25 x 50</Base>
         </UnitOption>
       </Options>
+      <SpellList>Human</SpellList>
+      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>101</Page>
