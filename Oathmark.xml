@@ -3124,6 +3124,836 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Goblin Advisor</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>2</Health>
+        <Points>124</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>127</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>127</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Archer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>1</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>10</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>132</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Captain</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>114</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>129</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>129</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Champion</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>1</Health>
+        <Points>37</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>129</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>129</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin General</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>2</Health>
+        <Points>227</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>128</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>128</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin King</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>245</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>127</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>12</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>127</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Slave</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>7</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>6</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>132</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Slave Slinger</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>7</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>6</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities />
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Sling</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>133</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Soldier</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>10</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>131</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Spearman</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>11</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Brace</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Spear</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>132</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Spellcaster Level 1</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>40</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>131</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>10</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Goblin and Orc</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>131</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Spellcaster Level 2</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>80</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>131</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>10</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Goblin and Orc</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>131</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Spellcaster Level 3</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>180</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>131</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>10</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Goblin and Orc</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>131</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Spellcaster Level 4</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>260</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>131</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>10</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Goblin and Orc</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>131</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Spellcaster Level 5</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>340</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wolf Mount</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>131</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>10</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <SpellList>Goblin and Orc</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>131</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Human Archer</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
