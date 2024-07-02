@@ -347,6 +347,33 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Legendary Hero</Name>
+      <Description>Gains EXP and heroic traits</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>72</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Limited Manoeuvres</Name>
+      <Description>Cannot pivot or about-face.&#xD;Max 90 degrees wheel/action.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>72</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Limited Movement</Name>
+      <Description>Cannot climb obstacles.&#xD;Activation roll at -3 when contacting rough ground or 1 hit / figure in unit.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>72</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Magic Items</Name>
       <Description>Can be given Magic Items</Description>
       <HasLevel>false</HasLevel>
@@ -392,6 +419,15 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Shadowform</Name>
+      <Description>Max 2 combat dice rolled against this unit if no magic weapons.&#xD;Takes normal damage from spells or magic weapons.&#xD;Unit with a figure that has a magic weapon can have that figure fight the Shadowform unit using only that figure's stats for attacking. Shadowform unit fights against whole unit as usual.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>73</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Shielding</Name>
       <Description>Discard up to X combat dice in melee to force front-charging opponent to discard the same number of his own (min 1).&#xD;-X Combat Dice to shooting attacks from the front or sides.&#xD;Artillery ignore Shielding.</Description>
       <HasLevel>true</HasLevel>
@@ -410,12 +446,48 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Spellcaster Control</Name>
+      <Description>Can only be added to army with a Spellcaster.&#xD;Removed as casualties if no friendly Spellcaster on table.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>74</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Stone Gaze</Name>
       <Description>When activated, must choose visible enemy within 12".&#xD;Target must roll 1 die &gt;= unit's Activation or take 1 hit.</Description>
       <HasLevel>false</HasLevel>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Uncaring</Name>
+      <Description>Cannot gain Shielding.&#xD;Auto-passes morale tests vs melee, suffering an additional hit per -2 modifier.&#xD;Auto-passes morale tests vs non-melee.&#xD;Immune to Death of an Officer.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>74</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Undead</Name>
+      <Description>Auto-pass morale tests.&#xD;Immune to Poison Breath and Stone Gaze.&#xD;Takes half (rounded down) hits from bows.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>74</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Unthinking</Name>
+      <Description>Activates on 1 die.&#xD;Max 2 dice for activation rolls.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>74</Page>
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
@@ -1024,6 +1096,78 @@
         <Page>178</Page>
       </Reference>
     </SpellList>
+    <SpellList>
+      <Name>Necromancer</Name>
+      <Spells>
+        <Spell>
+          <Name>Bone Shards</Name>
+          <Description>Shoot 2, CD2 attack.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>75</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Death Vision</Name>
+          <Description>Any unit takes a morale test.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>75</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Necrotic Touch</Name>
+          <Description>Inflict 2 hits on friendly unit that must immediately make a morale test as if vs melee.&#xD;Inflicted hits cannot be regenerated.&#xD;Friendly figure regains 2 Health (max starting Health).&#xD;</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>75</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Poison Blades</Name>
+          <Description>Any unit gains an extra hit in melee the next time it causes at least 2 hits.&#xD;Does not work against units with mostly Undead figures.</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>75</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Reanimate</Name>
+          <Description>Skeletal Soldier, Spearman or Archer unit regains 1 casualty.&#xD;For every 10 on casting dice, unit regains 1 casualty (max 3).</Description>
+          <CastingNumber>4</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>76</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Revive</Name>
+          <Description>Revenant Warrior, Linebreaker or Cavalry unit regains 1 casualty.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>76</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Summon Barrow Worm</Name>
+          <Description>Place marker on visible spot not on a unit.&#xD;Scatter marker (2D10, pick highest).&#xD;If on unit, move by minimum distance off the unit.&#xD;If off table, lost.&#xD;Replace marker with Barrow Worm.&#xD;Appearing Barrow Worm in contact with a unit immediately attacks that unit otherwise, immediate activation roll. If failed, does not move, else moves towards closest unit (friend or foe) and attacks.&#xD;Barrow Worm activates at the end of summoning player's turn, moving towards closest unit (friend or foe) and attacking.&#xD;If activation roll 2 or less or summoner not on table, Barrow Worm disappears.</Description>
+          <CastingNumber>10</CastingNumber>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>77</Page>
+          </Reference>
+        </Spell>
+      </Spells>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>75</Page>
+      </Reference>
+    </SpellList>
   </SpellLists>
   <UnitTypes>
     <UnitType>
@@ -1116,6 +1260,7 @@
       <SpellList>Elf</SpellList>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>Human</SpellList>
+      <SpellList>Necromancer</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>147</Page>
@@ -6957,6 +7102,70 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>140</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant King</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>325</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Horse</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>97</Page>
+          </Reference>
+          <Move>8</Move>
+          <MoveMode>Replace</MoveMode>
+          <Defence>13</Defence>
+          <DefenceMode>Replace</DefenceMode>
+          <Base>25 x 50</Base>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>10</Page>
       </Reference>
     </UnitType>
     <UnitType>
