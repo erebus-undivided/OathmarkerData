@@ -1364,23 +1364,27 @@
         <Equipment />
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wings</Name>
-          <Points>100</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>148</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Flying</Name>
-                <Level>0</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wings</Name>
+              <Points>100</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>148</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Flying</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Dwarf</SpellList>
       <SpellList>General</SpellList>
@@ -1600,23 +1604,27 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Add Expert Engineers</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>21</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Expert Engineers</Name>
-                <Level>0</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Add Expert Engineers</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Expert Engineers</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
@@ -2461,19 +2469,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>115</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>115</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -2565,19 +2577,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>116</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>116</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -2622,23 +2638,27 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Add Expert Engineers</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>22</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Expert Engineers</Name>
-                <Level>0</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Add Expert Engineers</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Expert Engineers</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
@@ -2686,19 +2706,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>115</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>115</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -2784,19 +2808,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>113</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>113</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -2956,19 +2984,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>114</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>114</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -3137,19 +3169,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>116</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>116</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Elf</SpellList>
       <SpellList>General</SpellList>
@@ -3197,19 +3233,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>116</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>116</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Elf</SpellList>
       <SpellList>General</SpellList>
@@ -3257,19 +3297,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>116</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>116</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Elf</SpellList>
       <SpellList>General</SpellList>
@@ -3317,19 +3361,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>116</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>116</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Elf</SpellList>
       <SpellList>General</SpellList>
@@ -3381,19 +3429,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>116</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>116</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Elf</SpellList>
       <SpellList>General</SpellList>
@@ -3617,19 +3669,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>127</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>127</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -3717,19 +3773,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>129</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>129</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -3777,19 +3837,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>129</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>129</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -3838,23 +3902,27 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Add Expert Engineers</Name>
-          <Points>50</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>23</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Expert Engineers</Name>
-                <Level>0</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Add Expert Engineers</Name>
+              <Points>50</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>23</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Expert Engineers</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
@@ -3902,19 +3970,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>128</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>128</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -3970,19 +4042,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>127</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>127</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -4232,19 +4308,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>131</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>10</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>131</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>10</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -4296,19 +4376,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>131</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>10</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>131</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>10</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -4360,19 +4444,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>131</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>10</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>131</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>10</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -4424,19 +4512,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>131</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>10</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>131</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>10</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -4492,19 +4584,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>131</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>10</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>131</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>10</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -4678,19 +4774,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>99</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>13</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>99</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -4782,19 +4882,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>99</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>13</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>99</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -4839,47 +4943,51 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Add Expert Engineers</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>22</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Expert Engineers</Name>
-                <Level>0</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
-        <UnitOption>
-          <Name>Change to Figures (10)</Name>
-          <Points>60</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>22</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Figures</Name>
-                <Level>5</Level>
-              </SpecialAbility>
-              <Mode>Remove</Mode>
-            </UnitOptionSpecialAbility>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Figures</Name>
-                <Level>10</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Add Expert Engineers</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Expert Engineers</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+            <UnitOption>
+              <Name>Change to Figures (10)</Name>
+              <Points>60</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Figures</Name>
+                    <Level>5</Level>
+                  </SpecialAbility>
+                  <Mode>Remove</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Figures</Name>
+                    <Level>10</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
@@ -4927,19 +5035,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>98</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>13</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>98</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -5081,19 +5193,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>97</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>13</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>97</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -5295,19 +5411,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>97</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>13</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>97</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -5476,19 +5596,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>101</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>101</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Human</SpellList>
       <SpellList>General</SpellList>
@@ -5536,19 +5660,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>101</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>101</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Human</SpellList>
       <SpellList>General</SpellList>
@@ -5596,19 +5724,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>101</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>101</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Human</SpellList>
       <SpellList>General</SpellList>
@@ -5656,19 +5788,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>101</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>101</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Human</SpellList>
       <SpellList>General</SpellList>
@@ -5720,19 +5856,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>101</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>101</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Human</SpellList>
       <SpellList>General</SpellList>
@@ -6127,19 +6267,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>135</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>135</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -6195,19 +6339,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>138</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>138</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -6263,47 +6411,51 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Add Expert Engineers</Name>
-          <Points>50</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>23</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Expert Engineers</Name>
-                <Level>0</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
-        <UnitOption>
-          <Name>Change to Figures (10)</Name>
-          <Points>65</Points>
-          <Reference>
-            <Sourcebook>Battlesworn</Sourcebook>
-            <Page>23</Page>
-          </Reference>
-          <SpecialAbilities>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Figures</Name>
-                <Level>5</Level>
-              </SpecialAbility>
-              <Mode>Remove</Mode>
-            </UnitOptionSpecialAbility>
-            <UnitOptionSpecialAbility>
-              <SpecialAbility>
-                <Name>Figures</Name>
-                <Level>10</Level>
-              </SpecialAbility>
-              <Mode>Add</Mode>
-            </UnitOptionSpecialAbility>
-          </SpecialAbilities>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Add Expert Engineers</Name>
+              <Points>50</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>23</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Expert Engineers</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+            <UnitOption>
+              <Name>Change to Figures (10)</Name>
+              <Points>65</Points>
+              <Reference>
+                <Sourcebook>Battlesworn</Sourcebook>
+                <Page>23</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Figures</Name>
+                    <Level>5</Level>
+                  </SpecialAbility>
+                  <Mode>Remove</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Figures</Name>
+                    <Level>10</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
@@ -6359,19 +6511,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>135</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>135</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -6488,19 +6644,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>134</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>134</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -6599,19 +6759,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>134</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>12</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>134</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>12</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -6761,19 +6925,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>20</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>138</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>138</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -6829,19 +6997,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>138</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>138</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -6897,19 +7069,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>30</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>138</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>138</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -6965,19 +7141,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>138</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>138</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -7037,19 +7217,23 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Wolf Mount</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>138</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>11</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Wolf Mount</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+                <Page>138</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
       <SpellList>Goblin and Orc</SpellList>
       <SpellList>General</SpellList>
@@ -7120,6 +7304,14 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
             <Name>Command</Name>
             <Level>2</Level>
           </SpecialAbility>
@@ -7128,12 +7320,12 @@
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Shielding</Name>
-            <Level>1</Level>
-          </SpecialAbility>
-          <SpecialAbility>
             <Name>Magic Items</Name>
             <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>1</Level>
           </SpecialAbility>
         </SpecialAbilities>
         <Equipment>
@@ -7149,20 +7341,76 @@
         </Equipment>
       </Stats>
       <Options>
-        <UnitOption>
-          <Name>Horse</Name>
-          <Points>40</Points>
-          <Reference>
-            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
-            <Page>97</Page>
-          </Reference>
-          <Move>8</Move>
-          <MoveMode>Replace</MoveMode>
-          <Defence>13</Defence>
-          <DefenceMode>Replace</DefenceMode>
-          <Base>25 x 50</Base>
-        </UnitOption>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>10</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>100</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>10</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
       </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>10</Page>
