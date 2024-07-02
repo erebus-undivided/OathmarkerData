@@ -257,12 +257,39 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Engineers</Name>
+      <Description>On successful activation, build a 1/2" high, unit wide temporary fortification directly in front instead of any action.&#xD;Temporary fortification counts as light cover and defensive fortifications.&#xD;Engineers ignore movement penalties for moving over temporary fortifications.&#xD;When in contact with a fortification and on successful activation, spend an action to destroy part of fortification in contact.&#xD;Cannot destroy wooded areas.&#xD;Free wheel manoeuvre to increase contact if unit moves into contact with a terrain piece.&#xD;Split unit over rivers to build temporary bridge by having figures on both sides of river, successfully activating and sacrificing all actions.&#xD;Any non-Enormous unit can use the temporary bridge.&#xD;Temporary bridges can be destroyed if the unit successfully activates while in contact with no unit on the bridge and no enemy within 6".&#xD;</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>19</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Enormous</Name>
       <Description>Max unit strength is 1.&#xD;Blocks LOS for all models.&#xD;Artillery roll extra Combat Dice when firing at this model.</Description>
       <HasLevel>false</HasLevel>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Expert Engineers</Name>
+      <Description>Re-roll failed activations.&#xD;Successful rerolled activations can only be used to build/destroy temporary fortifications/bridges.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>23</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
+      <Name>Figures</Name>
+      <Description>X figures in unit</Description>
+      <HasLevel>true</HasLevel>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>19</Page>
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
@@ -1391,6 +1418,67 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Dwarf Engineer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>5</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>75</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Engineers</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Figures</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Add Expert Engineers</Name>
+          <Points>30</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>21</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Expert Engineers</Name>
+                <Level>0</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>21</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Dwarf General</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -2349,6 +2437,67 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Engineer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>100</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Engineers</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Figures</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Add Expert Engineers</Name>
+          <Points>20</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>22</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Expert Engineers</Name>
+                <Level>0</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>22</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -3503,6 +3652,71 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Goblin Engineer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>100</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Engineers</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Figures</Name>
+            <Level>10</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Add Expert Engineers</Name>
+          <Points>50</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>23</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Expert Engineers</Name>
+                <Level>0</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>23</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Goblin General</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -4440,6 +4654,91 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>99</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Engineer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>60</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Engineers</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Figures</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Add Expert Engineers</Name>
+          <Points>40</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>22</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Expert Engineers</Name>
+                <Level>0</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+        <UnitOption>
+          <Name>Change to Figures (10)</Name>
+          <Points>60</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>22</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Figures</Name>
+                <Level>5</Level>
+              </SpecialAbility>
+              <Mode>Remove</Mode>
+            </UnitOptionSpecialAbility>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Figures</Name>
+                <Level>10</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>22</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -5768,6 +6067,102 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>138</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Orc Engineer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>65</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Engineers</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Figures</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Add Expert Engineers</Name>
+          <Points>50</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>23</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Expert Engineers</Name>
+                <Level>0</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+        <UnitOption>
+          <Name>Change to Figures (10)</Name>
+          <Points>65</Points>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>23</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Figures</Name>
+                <Level>5</Level>
+              </SpecialAbility>
+              <Mode>Remove</Mode>
+            </UnitOptionSpecialAbility>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Figures</Name>
+                <Level>10</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+      </Options>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>23</Page>
       </Reference>
     </UnitType>
     <UnitType>
