@@ -1050,6 +1050,51 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Bodach</Name>
+      <Description>Ethereal old wizard</Description>
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>2</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>3</Health>
+        <Points>400</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Discorporate</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>General</SpellList>
+      <SpellList>Dwarf</SpellList>
+      <SpellList>Elf</SpellList>
+      <SpellList>Goblin and Orc</SpellList>
+      <SpellList>Human</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>147</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Buggane</Name>
       <Description>Hairy Ogre Wizard.</Description>
       <MaxPerArmy>-1</MaxPerArmy>
@@ -1098,6 +1143,78 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>111</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dragon</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>2</Activation>
+        <Move>6</Move>
+        <Fight>8</Fight>
+        <Shoot>3</Shoot>
+        <Defence>14</Defence>
+        <CombatDice>5</CombatDice>
+        <Health>12</Health>
+        <Points>700</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Breath</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Enormous</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options>
+        <UnitOption>
+          <Name>Wings</Name>
+          <Points>100</Points>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>148</Page>
+          </Reference>
+          <SpecialAbilities>
+            <UnitOptionSpecialAbility>
+              <SpecialAbility>
+                <Name>Flying</Name>
+                <Level>0</Level>
+              </SpecialAbility>
+              <Mode>Add</Mode>
+            </UnitOptionSpecialAbility>
+          </SpecialAbilities>
+        </UnitOption>
+      </Options>
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>148</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -3029,6 +3146,40 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>119</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Gargoyle</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>24</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Flying</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon or None</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>147</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -6411,6 +6562,56 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>140</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Surma</Name>
+      <Description>Basilisk</Description>
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>6</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>4</CombatDice>
+        <Health>6</Health>
+        <Points>240</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Brace</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Stone Gaze</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>149</Page>
       </Reference>
     </UnitType>
     <UnitType>
