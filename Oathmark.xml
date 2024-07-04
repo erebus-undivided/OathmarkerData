@@ -185,6 +185,15 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Aquatic</Name>
+      <Description>No movement penalties in water.&#xD;Will not willingly move onto land.&#xD;Move 1 and -2 Fight when on land.&#xD;Failed activation roll causes Disordered then Broken.&#xD;Cannot recover from Disordered until in water.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>77</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Artillery</Name>
       <Description>Cannot move and shoot. &#xD;Can manoeuvre and shoot.&#xD;Ignores Shielding.</Description>
       <HasLevel>false</HasLevel>
@@ -748,6 +757,15 @@
             <Page>175</Page>
           </Reference>
         </Spell>
+        <Spell>
+          <Name>Anchor</Name>
+          <Description>Any boat has Move 0 and does not move with river on its next activation.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>68</Page>
+          </Reference>
+        </Spell>
       </Spells>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -827,6 +845,15 @@
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
             <Page>177</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Sail Like a Swan</Name>
+          <Description>Any boat gains +3 Move</Description>
+          <CastingNumber>4</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>68</Page>
           </Reference>
         </Spell>
       </Spells>
@@ -928,6 +955,33 @@
             <Page>174</Page>
           </Reference>
         </Spell>
+        <Spell>
+          <Name>Calm the Waters</Name>
+          <Description>River velocity is 0".&#xD;On 1 or 2 at end of each turn, velocity resets to default.</Description>
+          <CastingNumber>4</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>67</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Enrage the Waters</Name>
+          <Description>Add or subtract 4" from river velocity.&#xD;On 1 at end of each turn, velocity resets to default.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>67</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Summon Water Elemental</Name>
+          <Description>Friendly Water Elemental appears at visible spot within 6".&#xD;Cannot have more than 1 Water Elemental summoned by same spellcaster.&#xD;-1 to casting dice while Water Elemental summoned.</Description>
+          <CastingNumber>9</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>67</Page>
+          </Reference>
+        </Spell>
       </Spells>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -1009,6 +1063,15 @@
             <Page>180</Page>
           </Reference>
         </Spell>
+        <Spell>
+          <Name>Boil</Name>
+          <Description>Fight 4 CD3 attack against any unit in water</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>70</Page>
+          </Reference>
+        </Spell>
       </Spells>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -1088,6 +1151,15 @@
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
             <Page>178</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Stabilize</Name>
+          <Description>Units on same boat as spellcaster ignore unstable platform until a 1 is rolled at the end of each turn.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Battlesworn</Sourcebook>
+            <Page>68</Page>
           </Reference>
         </Spell>
       </Spells>
@@ -3583,6 +3655,46 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Giant Eel</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>5</CombatDice>
+        <Health>4</Health>
+        <Points>0</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>3</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>74</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Giant Spider</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -5164,19 +5276,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name>Command</Name>
+            <Name />
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Champion</Name>
+            <Name />
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Shielding</Name>
+            <Name />
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name>Magic Items</Name>
+            <Name />
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -6022,6 +6134,54 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Lake Beast</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>8</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>5</CombatDice>
+        <Health>8</Health>
+        <Points>0</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>74</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Lindwurm</Name>
       <Description>Wyvern</Description>
       <MaxPerArmy>-1</MaxPerArmy>
@@ -6065,6 +6225,691 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>125</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Necromancer Level 1</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>50</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>140</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Lich</Name>
+              <Points>10</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Undead</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>18</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Necromancer Level 2</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>100</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>150</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Lich</Name>
+              <Points>10</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Undead</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>18</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Necromancer Level 3</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>2</Health>
+        <Points>200</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>150</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Lich</Name>
+              <Points>10</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Undead</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>18</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Necromancer Level 4</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>300</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Lich</Name>
+              <Points>10</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Undead</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>18</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Necromancer Level 5</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>400</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>5</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Horse</Name>
+              <Points>40</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>11</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Lich</Name>
+              <Points>10</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Undead</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>18</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -7289,6 +8134,501 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Revenant Captain</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>142</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Undead Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>12</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>140</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>11</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>12</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant Cavalry</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>8</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>1</Health>
+        <Points>70</Points>
+        <Base>25 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>15</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant Champion</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>1</Health>
+        <Points>52</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Undead Horse</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>14</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>140</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>14</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>14</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant Chariot</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>7</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>150</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Manoeuvres</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Movement</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Archer (free shooting attack at CD1 after first move each turn)</Name>
+              <Points>25</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>16</Page>
+              </Reference>
+              <Shoot>1</Shoot>
+              <ShootMode>Replace</ShootMode>
+              <Equipment>
+                <UnitOptionEquipment>
+                  <Equipment>
+                    <Name>Bow</Name>
+                  </Equipment>
+                  <Mode>Add</Mode>
+                </UnitOptionEquipment>
+              </Equipment>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>16</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant General</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>2</Health>
+        <Points>279</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Undead Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>11</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>120</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>11</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>11</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Revenant King</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -7344,7 +8684,7 @@
         <UnitOptionGroup>
           <Options>
             <UnitOption>
-              <Name>Horse</Name>
+              <Name>Undead Horse</Name>
               <Points>40</Points>
               <Reference>
                 <Sourcebook>Oathbreakers</Sourcebook>
@@ -7372,7 +8712,7 @@
                 <UnitOptionSpecialAbility>
                   <SpecialAbility>
                     <Name>Charge</Name>
-                    <Level>2</Level>
+                    <Level>3</Level>
                   </SpecialAbility>
                   <Mode>Add</Mode>
                 </UnitOptionSpecialAbility>
@@ -7414,6 +8754,219 @@
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>10</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant Linebreaker</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>20</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Two-Handed Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>15</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant Prince</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>2</Health>
+        <Points>156</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Command</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Undead Horse</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>11</Page>
+              </Reference>
+              <Move>8</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>120</Points>
+              <Reference>
+                <Sourcebook>Oathbreakers</Sourcebook>
+                <Page>11</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>11</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Revenant Warrior</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>17</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Heavy Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>14</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -7518,6 +9071,62 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>146</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Water Elemental</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>4</CombatDice>
+        <Health>3</Health>
+        <Points>0</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Courage</Name>
+            <Level>4</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Regenerate</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Battlesworn</Sourcebook>
+        <Page>75</Page>
       </Reference>
     </UnitType>
     <UnitType>
