@@ -383,6 +383,15 @@
       </Reference>
     </SpecialAbilityType>
     <SpecialAbilityType>
+      <Name>Living Oathmark</Name>
+      <Description>Units within 6" that are not Courage, Enormous, Monster or Uncaring gain Courage(1).&#xD;When killed, units within 8" test for Cascading Panic.&#xD;Only one figure in an army can have Living Oathmark.</Description>
+      <HasLevel>false</HasLevel>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>78</Page>
+      </Reference>
+    </SpecialAbilityType>
+    <SpecialAbilityType>
       <Name>Magic Items</Name>
       <Description>Can be given Magic Items</Description>
       <HasLevel>false</HasLevel>
@@ -982,6 +991,51 @@
             <Page>67</Page>
           </Reference>
         </Spell>
+        <Spell>
+          <Name>Dragon Bane</Name>
+          <Description>Any unit's does double damage to Enormous units.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Bane of Kings</Sourcebook>
+            <Page>77</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Eathbound</Name>
+          <Description>Any Flying unit gains -1 Activation and cannot use Flying if activation failed.</Description>
+          <CastingNumber>6</CastingNumber>
+          <Reference>
+            <Sourcebook>Bane of Kings</Sourcebook>
+            <Page>77</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Inspiration</Name>
+          <Description>Remove Death of an Officer.</Description>
+          <CastingNumber>5</CastingNumber>
+          <Reference>
+            <Sourcebook>Bane of Kings</Sourcebook>
+            <Page>77</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Sphere of Protection</Name>
+          <Description>Any unit is immune to Fire Breath, Poisonous Breath and Stone Gaze.</Description>
+          <CastingNumber>8</CastingNumber>
+          <Reference>
+            <Sourcebook>Bane of Kings</Sourcebook>
+            <Page>77</Page>
+          </Reference>
+        </Spell>
+        <Spell>
+          <Name>Tanglefeet</Name>
+          <Description>Any non-Large, Enormous, Flying or Nimble unit must spend an action before performing a Move or Manoeuvre action.</Description>
+          <CastingNumber>7</CastingNumber>
+          <Reference>
+            <Sourcebook>Bane of Kings</Sourcebook>
+            <Page>77</Page>
+          </Reference>
+        </Spell>
       </Spells>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
@@ -1243,6 +1297,80 @@
   </SpellLists>
   <UnitTypes>
     <UnitType>
+      <Name>Animate Idol</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>4</CombatDice>
+        <Health>6</Health>
+        <Points>172</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Living Oathmark</Name>
+              <Points>30</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>18</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Living Oathmark</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>18</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Barghest</Name>
       <Description>Giant dog.</Description>
       <MaxPerArmy>-1</MaxPerArmy>
@@ -1290,6 +1418,68 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>95</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Barrow Worm</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>8</Activation>
+        <Move>6</Move>
+        <Fight>8</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>5</CombatDice>
+        <Health>16</Health>
+        <Points>312</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Enormous</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Waterwalk</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>27</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -1387,6 +1577,136 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>111</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Colossus</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>5</Move>
+        <Fight>6</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>5</CombatDice>
+        <Health>10</Health>
+        <Points>350</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Enormous</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Living Oathmark</Name>
+              <Points>60</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>16</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Living Oathmark</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>16</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Corpse Fire</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>2</Shoot>
+        <Defence>11</Defence>
+        <CombatDice>2</CombatDice>
+        <Health>3</Health>
+        <Points>180</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Breath</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Regenerate</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>25</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -3598,6 +3918,50 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>147</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Ghoul</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>6</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>15</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>21</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -6225,6 +6589,83 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>125</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Living Statue</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>5</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>4</Health>
+        <Points>54</Points>
+        <Base>50 x 50</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Living Oathmark</Name>
+              <Points>20</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>16</Page>
+              </Reference>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name />
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Living Oathmark</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>16</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -8970,6 +9411,338 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Skeletal Archer</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>0</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>14</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Fire Over</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Bow</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>21</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Skeletal Ballista</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>3</Move>
+        <Fight>1</Fight>
+        <Shoot>3</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>95</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Artillery</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Crew</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Aimed Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>23</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Skeletal Champion</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>10</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>1</Health>
+        <Points>50</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>2</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Champion</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>19</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Skeletal Light Catapult</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>3</Move>
+        <Fight>1</Fight>
+        <Shoot>3</Shoot>
+        <Defence>8</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>95</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Artillery</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Crew</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Indirect Fire</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <SpellList>Dwarf</SpellList>
+      <SpellList>General</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>22</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Skeletal Soldier</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>11</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>20</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Skeletal Spearman</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>1</Fight>
+        <Shoot>0</Shoot>
+        <Defence>9</Defence>
+        <CombatDice>1</CombatDice>
+        <Health>1</Health>
+        <Points>12</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Uncaring</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Unthinking</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Brace</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster Control</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Spear</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Light Armour</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>20</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Surma</Name>
       <Description>Basilisk</Description>
       <MaxPerArmy>-1</MaxPerArmy>
@@ -9074,6 +9847,60 @@
       </Reference>
     </UnitType>
     <UnitType>
+      <Name>Vampire</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>2</Activation>
+        <Move>6</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>5</Health>
+        <Points>312</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Discorporate</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Magic Items</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shielding</Name>
+            <Level>1</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Spellcaster</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Stone Gaze</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <SpellList>General</SpellList>
+      <SpellList>Necromancer</SpellList>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>26</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
       <Name>Water Elemental</Name>
       <Description />
       <MaxPerArmy>-1</MaxPerArmy>
@@ -9155,6 +9982,50 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>141</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Wraith</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>6</Move>
+        <Fight>4</Fight>
+        <Shoot>0</Shoot>
+        <Defence>12</Defence>
+        <CombatDice>4</CombatDice>
+        <Health>4</Health>
+        <Points>154</Points>
+        <Base>25 x 25</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Monster</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Undead</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Shadowform</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Nimble</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Horrific</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment />
+      </Stats>
+      <Options />
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>23</Page>
       </Reference>
     </UnitType>
     <UnitType>
