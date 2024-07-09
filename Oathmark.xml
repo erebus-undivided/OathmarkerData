@@ -179,6 +179,7 @@
       <Name>Aimed Fire</Name>
       <Description>Do not have to fire at the closest unit.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>166</Page>
@@ -188,6 +189,7 @@
       <Name>Aquatic</Name>
       <Description>No movement penalties in water.&#xD;Will not willingly move onto land.&#xD;Move 1 and -2 Fight when on land.&#xD;Failed activation roll causes Disordered then Broken.&#xD;Cannot recover from Disordered until in water.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
         <Page>77</Page>
@@ -197,6 +199,7 @@
       <Name>Artillery</Name>
       <Description>Cannot move and shoot. &#xD;Can manoeuvre and shoot.&#xD;Ignores Shielding.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>166</Page>
@@ -206,6 +209,7 @@
       <Name>Brace</Name>
       <Description>-1 Charge when charged.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>166</Page>
@@ -215,6 +219,7 @@
       <Name>Champion</Name>
       <Description>Roll Champion Die in melee.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>166</Page>
@@ -224,6 +229,7 @@
       <Name>Charge</Name>
       <Description>-X TN when charging</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>166</Page>
@@ -233,6 +239,7 @@
       <Name>Command</Name>
       <Description>Units within 6" roll three dice for activation and morale tests.&#xD;May activate X units within 6" when activated.</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -242,6 +249,7 @@
       <Name>Courage</Name>
       <Description>+X to all morale tests</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -251,6 +259,7 @@
       <Name>Crew</Name>
       <Description>Number of models operating artillery piece.</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -260,6 +269,7 @@
       <Name>Discorporate</Name>
       <Description>Can teleport 12" instead of any other actions on successful activation.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -269,6 +279,7 @@
       <Name>Engineers</Name>
       <Description>On successful activation, build a 1/2" high, unit wide temporary fortification directly in front instead of any action.&#xD;Temporary fortification counts as light cover and defensive fortifications.&#xD;Engineers ignore movement penalties for moving over temporary fortifications.&#xD;When in contact with a fortification and on successful activation, spend an action to destroy part of fortification in contact.&#xD;Cannot destroy wooded areas.&#xD;Free wheel manoeuvre to increase contact if unit moves into contact with a terrain piece.&#xD;Split unit over rivers to build temporary bridge by having figures on both sides of river, successfully activating and sacrificing all actions.&#xD;Any non-Enormous unit can use the temporary bridge.&#xD;Temporary bridges can be destroyed if the unit successfully activates while in contact with no unit on the bridge and no enemy within 6".&#xD;</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
         <Page>19</Page>
@@ -278,6 +289,7 @@
       <Name>Enormous</Name>
       <Description>Max unit strength is 1.&#xD;Blocks LOS for all models.&#xD;Artillery roll extra Combat Dice when firing at this model.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -287,6 +299,7 @@
       <Name>Expert Engineers</Name>
       <Description>Re-roll failed activations.&#xD;Successful rerolled activations can only be used to build/destroy temporary fortifications/bridges.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
         <Page>23</Page>
@@ -296,6 +309,7 @@
       <Name>Figures</Name>
       <Description>X figures in unit</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Battlesworn</Sourcebook>
         <Page>19</Page>
@@ -305,6 +319,7 @@
       <Name>Fire Breath</Name>
       <Description>Once per activation, 12" shooting attack with 5 combat dice using model's Shoot.&#xD;Morale test required for target even without casualties unless target immune to morale tests from casualties.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -314,6 +329,7 @@
       <Name>Fire Over</Name>
       <Description>Ignore one unit within 3" that has no Enormous or Large models when determining line of sight.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>167</Page>
@@ -323,6 +339,7 @@
       <Name>Flying</Name>
       <Description>Ignore terrain.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -332,6 +349,7 @@
       <Name>Horrific</Name>
       <Description>-1 Die for morale test vs this unit in combat.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -341,6 +359,7 @@
       <Name>Indirect Fire</Name>
       <Description>Does not have to fire at closest unit.&#xD;Can fire at enemy as long as ally can see it. +1 to TN when doing so.&#xD;Fires over intervening units.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -350,6 +369,7 @@
       <Name>Large</Name>
       <Description>Blocks LOS for non-Enormous models.&#xD;Artillery roll extra Combat Dice when firing at this model.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -359,6 +379,7 @@
       <Name>Legendary Hero</Name>
       <Description>Gains EXP and heroic traits</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>72</Page>
@@ -368,6 +389,7 @@
       <Name>Limited Manoeuvres</Name>
       <Description>Cannot pivot or about-face.&#xD;Max 90 degrees wheel/action.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>72</Page>
@@ -377,6 +399,7 @@
       <Name>Limited Movement</Name>
       <Description>Cannot climb obstacles.&#xD;Activation roll at -3 when contacting rough ground or 1 hit / figure in unit.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>72</Page>
@@ -386,6 +409,7 @@
       <Name>Living Oathmark</Name>
       <Description>Units within 6" that are not Courage, Enormous, Monster or Uncaring gain Courage(1).&#xD;When killed, units within 8" test for Cascading Panic.&#xD;Only one figure in an army can have Living Oathmark.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>true</Unique>
       <Reference>
         <Sourcebook>Bane of Kings</Sourcebook>
         <Page>78</Page>
@@ -395,6 +419,7 @@
       <Name>Magic Items</Name>
       <Description>Can be given Magic Items</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -404,6 +429,7 @@
       <Name>Monster</Name>
       <Description>Max unit strength is 1.&#xD;Always roll Champion Die.&#xD;Immune to Command.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -413,6 +439,7 @@
       <Name>Nimble</Name>
       <Description>Ignore rough ground penalties.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>168</Page>
@@ -422,6 +449,7 @@
       <Name>Poisonous Breath</Name>
       <Description>Once per activation, select unit within 12".&#xD;Target unit must roll 5 dice &gt;= attacker's Activation.&#xD;Each failure = 1 hit.&#xD;-1 Fight until end of turn.&#xD;Does not trigger morale tests.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -431,6 +459,7 @@
       <Name>Regenerate</Name>
       <Description>+X Health (up to starting) when activated.</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -440,6 +469,7 @@
       <Name>Shadowform</Name>
       <Description>Max 2 combat dice rolled against this unit if no magic weapons.&#xD;Takes normal damage from spells or magic weapons.&#xD;Unit with a figure that has a magic weapon can have that figure fight the Shadowform unit using only that figure's stats for attacking. Shadowform unit fights against whole unit as usual.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>73</Page>
@@ -449,6 +479,7 @@
       <Name>Shielding</Name>
       <Description>Discard up to X combat dice in melee to force front-charging opponent to discard the same number of his own (min 1).&#xD;-X Combat Dice to shooting attacks from the front or sides.&#xD;Artillery ignore Shielding.</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -458,6 +489,7 @@
       <Name>Spellcaster</Name>
       <Description>Knows X spells chosen at start of game,&#xD;Roll X dice when casting spells.</Description>
       <HasLevel>true</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -467,6 +499,7 @@
       <Name>Spellcaster Control</Name>
       <Description>Can only be added to army with a Spellcaster.&#xD;Removed as casualties if no friendly Spellcaster on table.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>74</Page>
@@ -476,6 +509,7 @@
       <Name>Stone Gaze</Name>
       <Description>When activated, must choose visible enemy within 12".&#xD;Target must roll 1 die &gt;= unit's Activation or take 1 hit.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>169</Page>
@@ -485,6 +519,7 @@
       <Name>Uncaring</Name>
       <Description>Cannot gain Shielding.&#xD;Auto-passes morale tests vs melee, suffering an additional hit per -2 modifier.&#xD;Auto-passes morale tests vs non-melee.&#xD;Immune to Death of an Officer.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>74</Page>
@@ -494,6 +529,7 @@
       <Name>Undead</Name>
       <Description>Auto-pass morale tests.&#xD;Immune to Poison Breath and Stone Gaze.&#xD;Takes half (rounded down) hits from bows.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>74</Page>
@@ -503,6 +539,7 @@
       <Name>Unthinking</Name>
       <Description>Activates on 1 die.&#xD;Max 2 dice for activation rolls.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>74</Page>
@@ -512,6 +549,7 @@
       <Name>Waterwalk</Name>
       <Description>Ignore movement penalties for water.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>172</Page>
@@ -521,6 +559,7 @@
       <Name>Wild Charge</Name>
       <Description>Can re-roll one Combat Die when charging.&#xD;If re-rolled, enemy can re-roll one Combat Die too.</Description>
       <HasLevel>false</HasLevel>
+      <Unique>false</Unique>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>172</Page>
