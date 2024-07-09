@@ -1906,7 +1906,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>87</Page>
@@ -1952,10 +2011,143 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>140</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>87</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Dwarf Chariot</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>4</Activation>
+        <Move>7</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>172</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Manoeuvres</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Movement</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Archer (free shooting attack at CD1 after first move each turn)</Name>
+              <Points>25</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Shoot>1</Shoot>
+              <ShootMode>Replace</ShootMode>
+              <Equipment>
+                <UnitOptionEquipment>
+                  <Equipment>
+                    <Name>Elf Bow</Name>
+                  </Equipment>
+                  <Mode>Add</Mode>
+                </UnitOptionEquipment>
+              </Equipment>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>21</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -2063,7 +2255,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>140</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>86</Page>
@@ -2159,7 +2410,62 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>110</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>85</Page>
@@ -2316,7 +2622,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>125</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>85</Page>
@@ -2444,7 +2809,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <SpellList>Dwarf</SpellList>
       <SpellList>General</SpellList>
       <Reference>
@@ -2490,7 +2914,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <SpellList>Dwarf</SpellList>
       <SpellList>General</SpellList>
       <Reference>
@@ -2536,7 +3019,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <SpellList>Dwarf</SpellList>
       <SpellList>General</SpellList>
       <Reference>
@@ -2582,7 +3124,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <SpellList>Dwarf</SpellList>
       <SpellList>General</SpellList>
       <Reference>
@@ -2632,7 +3233,66 @@
           </UnitEquipment>
         </Equipment>
       </Stats>
-      <Options />
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>21</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
       <SpellList>Dwarf</SpellList>
       <SpellList>General</SpellList>
       <Reference>
@@ -2876,6 +3536,60 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
@@ -2984,12 +3698,140 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>150</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>1</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>116</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Elf Chariot</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>3</Activation>
+        <Move>7</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>195</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Manoeuvres</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Movement</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Archer (free shooting attack at CD1 after first move each turn)</Name>
+              <Points>25</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Shoot>1</Shoot>
+              <ShootMode>Replace</ShootMode>
+              <Equipment>
+                <UnitOptionEquipment>
+                  <Equipment>
+                    <Name>Elf Bow</Name>
+                  </Equipment>
+                  <Mode>Add</Mode>
+                </UnitOptionEquipment>
+              </Equipment>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>20</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -3113,6 +3955,60 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>125</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
@@ -3214,6 +4110,56 @@
               <Defence>12</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>80</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>1</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -3390,6 +4336,60 @@
               <Defence>12</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>100</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -3576,6 +4576,60 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
@@ -3639,6 +4693,60 @@
               <Defence>11</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -3704,6 +4812,60 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
@@ -3767,6 +4929,60 @@
               <Defence>11</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -3835,6 +5051,60 @@
               <Defence>11</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>160</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>20</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -4334,6 +5604,80 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>129</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Goblin Chariot</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>7</Move>
+        <Fight>2</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>118</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Manoeuvres</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Movement</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Archer (free shooting attack at CD1 after first move each turn)</Name>
+              <Points>25</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>24</Page>
+              </Reference>
+              <Shoot>1</Shoot>
+              <ShootMode>Replace</ShootMode>
+              <Equipment>
+                <UnitOptionEquipment>
+                  <Equipment>
+                    <Name>Elf Bow</Name>
+                  </Equipment>
+                  <Mode>Add</Mode>
+                </UnitOptionEquipment>
+              </Equipment>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>24</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -5265,6 +6609,60 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>145</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
@@ -5373,12 +6771,140 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>130</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>99</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Human Chariot</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>5</Activation>
+        <Move>7</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>150</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Manoeuvres</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Movement</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Archer (free shooting attack at CD1 after first move each turn)</Name>
+              <Points>25</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <Shoot>1</Shoot>
+              <ShootMode>Replace</ShootMode>
+              <Equipment>
+                <UnitOptionEquipment>
+                  <Equipment>
+                    <Name>Elf Bow</Name>
+                  </Equipment>
+                  <Mode>Add</Mode>
+                </UnitOptionEquipment>
+              </Equipment>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>22</Page>
       </Reference>
     </UnitType>
     <UnitType>
@@ -5525,6 +7051,60 @@
               <Defence>13</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>125</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>133</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -5683,6 +7263,56 @@
               <Defence>13</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>100</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>2</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -5902,6 +7532,60 @@
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
             </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>115</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>22</Page>
+              </Reference>
+              <Move>7</Move>
+              <MoveMode>Replace</MoveMode>
+              <Defence>13</Defence>
+              <DefenceMode>Replace</DefenceMode>
+              <CombatDice>3</CombatDice>
+              <CombatDiceMode>Replace</CombatDiceMode>
+              <Health>3</Health>
+              <HealthMode>Replace</HealthMode>
+              <Base>50 x 100</Base>
+              <SpecialAbilities>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Charge</Name>
+                    <Level>3</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Wild Charge</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Large</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Manoeuvres</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+                <UnitOptionSpecialAbility>
+                  <SpecialAbility>
+                    <Name>Limited Movement</Name>
+                    <Level>0</Level>
+                  </SpecialAbility>
+                  <Mode>Add</Mode>
+                </UnitOptionSpecialAbility>
+              </SpecialAbilities>
+            </UnitOption>
           </Options>
         </UnitOptionGroup>
       </Options>
@@ -6086,6 +7770,14 @@
               <Defence>11</Defence>
               <DefenceMode>Replace</DefenceMode>
               <Base>25 x 50</Base>
+            </UnitOption>
+            <UnitOption>
+              <Name>Chariot</Name>
+              <Points>0</Points>
+              <Reference>
+                <Sourcebook />
+                <Page>0</Page>
+              </Reference>
             </UnitOption>
           </Options>
         </UnitOptionGroup>
@@ -7646,6 +9338,80 @@
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>138</Page>
+      </Reference>
+    </UnitType>
+    <UnitType>
+      <Name>Orc Chariot</Name>
+      <Description />
+      <MaxPerArmy>-1</MaxPerArmy>
+      <Stats>
+        <Activation>6</Activation>
+        <Move>7</Move>
+        <Fight>3</Fight>
+        <Shoot>0</Shoot>
+        <Defence>13</Defence>
+        <CombatDice>3</CombatDice>
+        <Health>3</Health>
+        <Points>136</Points>
+        <Base>50 x 100</Base>
+        <SpecialAbilities>
+          <SpecialAbility>
+            <Name>Charge</Name>
+            <Level>3</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Wild Charge</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Large</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Manoeuvres</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+          <SpecialAbility>
+            <Name>Limited Movement</Name>
+            <Level>0</Level>
+          </SpecialAbility>
+        </SpecialAbilities>
+        <Equipment>
+          <UnitEquipment>
+            <Name>Hand Weapon</Name>
+          </UnitEquipment>
+          <UnitEquipment>
+            <Name>Shield</Name>
+          </UnitEquipment>
+        </Equipment>
+      </Stats>
+      <Options>
+        <UnitOptionGroup>
+          <Options>
+            <UnitOption>
+              <Name>Archer (free shooting attack at CD1 after first move each turn)</Name>
+              <Points>25</Points>
+              <Reference>
+                <Sourcebook>Bane of Kings</Sourcebook>
+                <Page>23</Page>
+              </Reference>
+              <Shoot>1</Shoot>
+              <ShootMode>Replace</ShootMode>
+              <Equipment>
+                <UnitOptionEquipment>
+                  <Equipment>
+                    <Name>Elf Bow</Name>
+                  </Equipment>
+                  <Mode>Add</Mode>
+                </UnitOptionEquipment>
+              </Equipment>
+            </UnitOption>
+          </Options>
+        </UnitOptionGroup>
+      </Options>
+      <Reference>
+        <Sourcebook>Bane of Kings</Sourcebook>
+        <Page>23</Page>
       </Reference>
     </UnitType>
     <UnitType>
