@@ -753,7 +753,7 @@
         </Spell>
         <Spell>
           <Name>Fortress</Name>
-          <Description>Friendly unit received Shielding(3) until it moves.</Description>
+          <Description>Friendly unit receives Shielding(3) until it moves.</Description>
           <CastingNumber>7</CastingNumber>
           <Reference>
             <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
