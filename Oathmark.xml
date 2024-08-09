@@ -13214,5 +13214,457 @@
       </Reference>
     </UnitType>
   </UnitTypes>
-  <TerrainLists />
+  <TerrainLists>
+    <TerrainList>
+      <Name>Dwarf</Name>
+      <Terrains>
+        <Terrain>
+          <Name>Dwarf City</Name>
+          <Rarity>1</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf King</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Prince</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf General</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Captain</UnitType>
+              <MaxSelections>2</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 1</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 2</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Soldier</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Spearman</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Archer</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Militia</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Forges</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Warrior</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Linebreaker</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Mountain Passes</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Dwarf Border Guard</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Lumber Yard</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <CompoundUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Light Catapult</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Heavy Catapult</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <MaxTotalSelections>2</MaxTotalSelections>
+          </CompoundUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Hermitages</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <CompoundUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 1</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 2</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 3</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 4</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Dwarf Spellcaster Level 5</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <MaxTotalSelections>1</MaxTotalSelections>
+          </CompoundUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Snow-capped Mountains</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Indrik</UnitType>
+            <MaxSelections>2</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Tarns</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Eachy</UnitType>
+            <MaxSelections>2</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Moors</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>78</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Barghest</UnitType>
+            <MaxSelections>2</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+      </Terrains>
+      <Reference>
+        <Sourcebook />
+        <Page>0</Page>
+      </Reference>
+    </TerrainList>
+    <TerrainList>
+      <Name>Human</Name>
+      <Terrains>
+        <Terrain>
+          <Name>Human City</Name>
+          <Rarity>1</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human King</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Prince</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human General</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Captain</UnitType>
+              <MaxSelections>2</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <CompoundUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 1</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 2</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <MaxTotalSelections>1</MaxTotalSelections>
+          </CompoundUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Soldier</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Spearman</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Archer</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Militia</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Iron Mines</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Human Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Warrior</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Linebreaker</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Barrens</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Human Ranger</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Mounted Ranger</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Plains</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Human Cavalry</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Human Heavy Cavalry</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Timber Mills</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <CompoundUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Light Catapult</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Heavy Catapult</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <MaxTotalSelections>2</MaxTotalSelections>
+          </CompoundUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Monastery</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <CompoundUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 1</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 2</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 3</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 4</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Human Spellcaster Level 5</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <MaxTotalSelections>1</MaxTotalSelections>
+          </CompoundUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Rough Hills</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Ogre</UnitType>
+              <MaxSelections>6</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Ogre Linebreaker</UnitType>
+              <MaxSelections>6</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Sea Caves</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Buggane</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Rocky Mountains</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>79</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Giant</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+      </Terrains>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>79</Page>
+      </Reference>
+    </TerrainList>
+  </TerrainLists>
 </Oathmark>
