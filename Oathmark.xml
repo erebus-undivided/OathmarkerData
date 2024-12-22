@@ -14107,5 +14107,66 @@
         <Page>79</Page>
       </Reference>
     </TerrainList>
+    <TerrainList>
+      <Name>Unaligned</Name>
+      <Terrains>
+        <Terrain>
+          <Name>Ancient Ruins</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>81</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Gargoyle</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Glade</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>81</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Bodach</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>High Fells</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>81</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Dragon</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Caverns</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>81</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Surma</UnitType>
+            <MaxSelections>2</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+      </Terrains>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>81</Page>
+      </Reference>
+    </TerrainList>
   </TerrainLists>
 </Oathmark>
