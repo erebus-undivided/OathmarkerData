@@ -585,10 +585,10 @@
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
-          <SpecialAbility>
-            <Name>Courage</Name>
-            <Level>1</Level>
-          </SpecialAbility>
+          <SpecialAbilityData>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbilityData>
           <Mode>Add</Mode>
         </MagicItemSpecialAbility>
       </SpecialAbilities>
@@ -604,10 +604,10 @@
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
-          <SpecialAbility>
-            <Name>Nimble</Name>
+          <SpecialAbilityData>
+            <Name />
             <Level>0</Level>
-          </SpecialAbility>
+          </SpecialAbilityData>
           <Mode>Set</Mode>
         </MagicItemSpecialAbility>
       </SpecialAbilities>
@@ -623,10 +623,10 @@
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
-          <SpecialAbility>
-            <Name>Discorporate</Name>
+          <SpecialAbilityData>
+            <Name />
             <Level>0</Level>
-          </SpecialAbility>
+          </SpecialAbilityData>
           <Mode>Set</Mode>
         </MagicItemSpecialAbility>
       </SpecialAbilities>
@@ -642,10 +642,10 @@
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
-          <SpecialAbility>
-            <Name>Regenerate</Name>
-            <Level>1</Level>
-          </SpecialAbility>
+          <SpecialAbilityData>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbilityData>
           <Mode>Set</Mode>
         </MagicItemSpecialAbility>
       </SpecialAbilities>
@@ -672,10 +672,10 @@
       <ExtraKnownSpells>0</ExtraKnownSpells>
       <SpecialAbilities>
         <MagicItemSpecialAbility>
-          <SpecialAbility>
-            <Name>Shielding</Name>
-            <Level>1</Level>
-          </SpecialAbility>
+          <SpecialAbilityData>
+            <Name />
+            <Level>0</Level>
+          </SpecialAbilityData>
           <Mode>Add</Mode>
         </MagicItemSpecialAbility>
       </SpecialAbilities>
@@ -13320,6 +13320,232 @@
       <Reference>
         <Sourcebook />
         <Page>0</Page>
+      </Reference>
+    </TerrainList>
+    <TerrainList>
+      <Name>Elf</Name>
+      <Terrains>
+        <Terrain>
+          <Name>Elf City</Name>
+          <Rarity>1</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf King or Queen</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Prince or Princess</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf General</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Captain</UnitType>
+              <MaxSelections>2</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 1</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 2</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Soldier</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Spearman</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Archer</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Silver Mines</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Elf Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Warrior</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Linebreaker</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Forests</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Elf Ranger</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Pathguard</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Grasslands</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Elf Mounted Ranger</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Elf Cavalry</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Kennels</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Elf Hunt Master</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Towers</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 1</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 2</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 3</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 4</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Elf Spellcaster Level 5</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Outposts</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Elf Ballista</UnitType>
+            <MaxSelections>2</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Hill Caves</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Lindwurm</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Dark Forests</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+            <Page>80</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Giant Spider</UnitType>
+              <MaxSelections>6</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Wulver</UnitType>
+              <MaxSelections>6</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+        </Terrain>
+      </Terrains>
+      <Reference>
+        <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
+        <Page>80</Page>
       </Reference>
     </TerrainList>
     <TerrainList>
