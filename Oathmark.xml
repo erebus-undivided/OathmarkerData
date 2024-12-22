@@ -567,7 +567,7 @@
     </SpecialAbilityType>
   </SpecialAbilityTypes>
   <MagicItemTypes>
-    <MagicItemType>
+    <MagicItem>
       <Name>Armour of Starsilver</Name>
       <Description>7+ save to ignore each point of damage.</Description>
       <Points>50</Points>
@@ -577,8 +577,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>182</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Banner of Courage</Name>
       <Description>Gain Courage(+1)</Description>
       <Points>60</Points>
@@ -596,8 +596,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>182</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Boots of Striding</Name>
       <Description>Gain Nimble</Description>
       <Points>30</Points>
@@ -615,8 +615,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>182</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Cloak of Discorporation</Name>
       <Description>Gain Discorporate.</Description>
       <Points>100</Points>
@@ -634,8 +634,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>182</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Crown of Regeneration</Name>
       <Description>Gain Regenerate(1)</Description>
       <Points>50</Points>
@@ -653,8 +653,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>182</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Golden String Bow</Name>
       <Description>Roll Champion Die when shooting.</Description>
       <Points>50</Points>
@@ -664,8 +664,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>183</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Ring of Shielding</Name>
       <Description>Gain Shielding(+1).</Description>
       <Points>50</Points>
@@ -683,8 +683,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>183</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Ring of Spellcasting</Name>
       <Description>Knows an extra spell.</Description>
       <Points>30</Points>
@@ -694,8 +694,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>183</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Sceptre of Command</Name>
       <Description>Can activate units up to 9" away.</Description>
       <Points>75</Points>
@@ -705,8 +705,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>183</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Sword of Flames</Name>
       <Description>Reroll 1s on Champion Die in combat.</Description>
       <Points>50</Points>
@@ -716,8 +716,8 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>183</Page>
       </Reference>
-    </MagicItemType>
-    <MagicItemType>
+    </MagicItem>
+    <MagicItem>
       <Name>Sword of Starsilver</Name>
       <Description>+1 to Champion Die roll. Roll of 9 does not hit character.&#xD;</Description>
       <Points>50</Points>
@@ -727,7 +727,7 @@
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>183</Page>
       </Reference>
-    </MagicItemType>
+    </MagicItem>
   </MagicItemTypes>
   <SpellLists>
     <SpellList>
@@ -1452,8 +1452,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>95</Page>
@@ -1514,8 +1512,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>General</SpellList>
-      <SpellList>Necromancer</SpellList>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>27</Page>
@@ -1817,8 +1813,6 @@
           </Options>
         </UnitOptionGroup>
       </Options>
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>148</Page>
@@ -1857,8 +1851,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>89</Page>
@@ -1898,8 +1890,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>91</Page>
@@ -2398,8 +2388,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>93</Page>
@@ -2549,8 +2537,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>93</Page>
@@ -2581,8 +2567,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>90</Page>
@@ -2610,8 +2594,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>91</Page>
@@ -2759,8 +2741,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>88</Page>
@@ -2803,8 +2783,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>89</Page>
@@ -3372,8 +3350,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>89</Page>
@@ -3422,8 +3398,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>94</Page>
@@ -3466,8 +3440,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>118</Page>
@@ -3512,8 +3484,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>125</Page>
@@ -3674,8 +3644,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>122</Page>
@@ -4083,8 +4051,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>123</Page>
@@ -4233,8 +4199,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>119</Page>
@@ -4270,8 +4234,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>123</Page>
@@ -4472,8 +4434,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>119</Page>
@@ -4554,8 +4514,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>118</Page>
@@ -5188,8 +5146,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>119</Page>
@@ -5222,8 +5178,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>147</Page>
@@ -5320,8 +5274,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>112</Page>
@@ -5343,19 +5295,19 @@
         <Base>50 x 50</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Aquatic</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Monster</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Courage</Name>
             <Level>3</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -5398,8 +5350,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>126</Page>
@@ -5564,8 +5514,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>132</Page>
@@ -6233,8 +6181,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>143</Page>
@@ -7121,8 +7067,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>103</Page>
@@ -7283,8 +7227,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>106</Page>
@@ -7728,8 +7670,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>110</Page>
@@ -7772,8 +7712,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>106</Page>
@@ -7795,19 +7733,19 @@
         <Base>25 x 25</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Command</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Shielding</Name>
             <Level>1</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Magic Items</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -7936,8 +7874,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>107</Page>
@@ -7968,8 +7904,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>103</Page>
@@ -8040,8 +7974,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>104</Page>
@@ -8203,8 +8135,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>104</Page>
@@ -8285,8 +8215,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>102</Page>
@@ -8919,8 +8847,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>103</Page>
@@ -8969,8 +8895,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>94</Page>
@@ -9019,8 +8943,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>146</Page>
@@ -9042,27 +8964,27 @@
         <Base>50 x 100</Base>
         <SpecialAbilities>
           <SpecialAbility>
-            <Name />
+            <Name>Aquatic</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Champion</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Charge</Name>
             <Level>2</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Enormous</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Horrific</Name>
             <Level>0</Level>
           </SpecialAbility>
           <SpecialAbility>
-            <Name />
+            <Name>Monster</Name>
             <Level>0</Level>
           </SpecialAbility>
         </SpecialAbilities>
@@ -9113,8 +9035,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>125</Page>
@@ -9173,13 +9093,6 @@
                 <Page>16</Page>
               </Reference>
               <SpecialAbilities>
-                <UnitOptionSpecialAbility>
-                  <SpecialAbility>
-                    <Name />
-                    <Level>0</Level>
-                  </SpecialAbility>
-                  <Mode>Add</Mode>
-                </UnitOptionSpecialAbility>
                 <UnitOptionSpecialAbility>
                   <SpecialAbility>
                     <Name>Living Oathmark</Name>
@@ -9931,8 +9844,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>110</Page>
@@ -9980,8 +9891,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>111</Page>
@@ -10635,8 +10544,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>143</Page>
@@ -12654,8 +12561,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>23</Page>
@@ -12770,8 +12675,6 @@
         </Equipment>
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathbreakers</Sourcebook>
         <Page>22</Page>
@@ -12924,8 +12827,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>149</Page>
@@ -12978,8 +12879,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>146</Page>
@@ -13206,8 +13105,6 @@
         <Equipment />
       </Stats>
       <Options />
-      <SpellList>Dwarf</SpellList>
-      <SpellList>General</SpellList>
       <Reference>
         <Sourcebook>Oathmark - Battles of the Lost Age</Sourcebook>
         <Page>126</Page>
