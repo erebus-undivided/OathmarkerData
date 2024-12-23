@@ -14168,5 +14168,329 @@
         <Page>81</Page>
       </Reference>
     </TerrainList>
+    <TerrainList>
+      <Name>Undead</Name>
+      <Terrains>
+        <Terrain>
+          <Name>Necropolis</Name>
+          <Rarity>1</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant King</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant Prince</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant General</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant Captain</UnitType>
+              <MaxSelections>2</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant Champion</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Skeletal Champion</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Soldier</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Spearman</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Archer</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Cursed Burial Ground</Name>
+          <Rarity>1</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 1</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 2</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 3</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 4</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 5</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 1</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 2</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 3</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>true</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant General</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant Captain</UnitType>
+              <MaxSelections>2</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Revenant Champion</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Skeletal Champion</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Soldier</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Spearman</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Archer</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Graveyard</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Ghoul</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Catacombs</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Revenant Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Revenant Warrior</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Revenant Linebreaker</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Sepulchre</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Revenant Cavalry</UnitType>
+            <MaxSelections>-1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Tomb</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <CompoundUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Skeletal Light Catapult</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Skeletal Ballista</UnitType>
+              <MaxSelections>-1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <MaxTotalSelections>2</MaxTotalSelections>
+          </CompoundUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Mausoleum</Name>
+          <Rarity>2</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Revenant Chariot</UnitType>
+            <MaxSelections>2</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+          <SimpleUnitSelection>
+            <UnitType>Skeletal Champion</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Dark Tower</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook />
+            <Page>0</Page>
+          </Reference>
+          <ExclusiveUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 1</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 2</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+            <SimpleUnitSelection>
+              <UnitType>Necromancer Level 3</UnitType>
+              <MaxSelections>1</MaxSelections>
+              <RequiresCapital>false</RequiresCapital>
+            </SimpleUnitSelection>
+          </ExclusiveUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Barrows</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Wraith</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Crypt</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Vampire</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Ash Wastes</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Corpse Fire</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+        <Terrain>
+          <Name>Endless Tunnels</Name>
+          <Rarity>3</Rarity>
+          <Reference>
+            <Sourcebook>Oathbreakers</Sourcebook>
+            <Page>9</Page>
+          </Reference>
+          <SimpleUnitSelection>
+            <UnitType>Barrow Worm</UnitType>
+            <MaxSelections>1</MaxSelections>
+            <RequiresCapital>false</RequiresCapital>
+          </SimpleUnitSelection>
+        </Terrain>
+      </Terrains>
+      <Reference>
+        <Sourcebook>Oathbreakers</Sourcebook>
+        <Page>9</Page>
+      </Reference>
+    </TerrainList>
   </TerrainLists>
 </Oathmark>
